@@ -1,0 +1,36 @@
+.select-container {
+  position: relative;
+  width: 250px;
+
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.select-display {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3A3F47;
+}
+
+.select-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #3A3F47;
+  z-index: 1000; /* 부모 요소에 의해 가려지지 않도록 높은 z-index 설정 */
+}
+
+.select-option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.select-option:hover {
+  background-color: #f0f0f0;
+}
+/* fd */

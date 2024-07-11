@@ -1,0 +1,33 @@
+/* 기본 스타일 */
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  color: white;
+}
+
+/* 크기별 스타일 */
+.button.large {
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.button.medium {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.button.small {
+  padding: 7px 14px;
+  font-size: 12px;
+}
+
+/* 변형별 스타일 */
+.button.primary {
+  background-color: #3A3F47;
+}
+
+.button.negative {
+  background-color: #FF4D4D;
+}

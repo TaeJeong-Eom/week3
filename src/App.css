@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* 화면 전체의 배경색 변경 */
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
